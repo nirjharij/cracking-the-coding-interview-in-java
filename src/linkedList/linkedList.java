@@ -1,3 +1,5 @@
+// Source: Geeks for Geeks
+
 package linkedList;
 
 public class linkedList{
@@ -10,6 +12,7 @@ public class linkedList{
 			this.next = null;
 		}
 	}
+	
 	public linkedListNode head = null;    
     public linkedListNode tail = null;    
     
@@ -32,7 +35,7 @@ public class linkedList{
     }    
     
     public void display() {    
-        //Node current will point to head    
+        // Node current will point to head    
     	linkedListNode current = head;    
         if(head == null) {    
             System.out.println("List is empty");    
@@ -40,7 +43,7 @@ public class linkedList{
         }    
         System.out.println("Nodes of singly linked list: ");    
         while(current != null) {    
-            //Prints each node by incrementing pointer    
+            // Prints each node by incrementing pointer    
             System.out.print(current.data + " ");    
             current = current.next;    
         }    

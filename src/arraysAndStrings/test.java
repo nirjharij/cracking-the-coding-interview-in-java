@@ -10,5 +10,6 @@ public class test {
 		else {
 			System.out.println("Is not unique");
 		}
+		
 	}
 }
