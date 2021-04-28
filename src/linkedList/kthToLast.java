@@ -1,6 +1,6 @@
 package linkedList;
 
-import linkedList.linkedList.linkedListNode;
+import linkedList.linkedListNode;
 
 public class kthToLast {
 	static int kthFromLast(linkedListNode head, int k) {
