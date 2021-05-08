@@ -32,6 +32,12 @@ public class stack {
 		return -1;
 	}
 	
+	public boolean isEmpty() {
+		if (size == 0)
+			return true;
+		return false;
+	}
+	
 	public int pop_bottom() {
 		return stackArr[bottom];
 	}
