@@ -41,4 +41,8 @@ public class stack {
 	public int pop_bottom() {
 		return stackArr[bottom];
 	}
+	
+	public int peek() {
+		return stackArr[top-1];
+	}
 }
