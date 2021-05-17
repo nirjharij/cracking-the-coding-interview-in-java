@@ -4,7 +4,7 @@
 package linkedList;
 
 
-public class intersection {
+public class LinkedListIntersection {
 	public static void findIntersection(linkedListNode head1, int l1, linkedListNode head2, int l2) {
 		int diff;
 		boolean list1 = false;
